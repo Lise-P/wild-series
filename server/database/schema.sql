@@ -15,6 +15,7 @@ create table category (
   id INT unsigned primary key auto_increment not null,
   name varchar(100) not null
 );
+
 create table program (
   id INT unsigned primary key auto_increment not null,
  title varchar(255) not null,
